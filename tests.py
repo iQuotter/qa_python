@@ -67,7 +67,8 @@ class TestBooksCollector:
         books_collector.add_new_book('Зеленая миля')
         books_collector.set_book_rating('Зеленая миля', lower_rating)
 
-        assert books_collector.books_rating['Зеленая миля'] != lower_rating
+        assert books_collector.books_rating['Зеленая миля'] != lower_rating \
+               and books_collector.books_rating['Зеленая миля'] == 1
 
     def test_set_book_rating_1(self):
         lower_rating = 1
