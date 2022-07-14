@@ -158,7 +158,7 @@ class TestBooksCollector:
 
         assert books_collector.get_list_of_favorites_books()
 
-    def test_get_books_with_specific_rating(self):
+    def test_get_books_with_specific_rating_true(self):
         rating = 5
         books_collector = BooksCollector()
 
