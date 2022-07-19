@@ -1,0 +1,29 @@
+Index: .pytest_cache/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/venv/\r\n/.idea/\r\n
+===================================================================
+diff --git a/.pytest_cache/.gitignore b/.pytest_cache/.gitignore
+--- a/.pytest_cache/.gitignore	
++++ b/.pytest_cache/.gitignore	
+@@ -1,2 +1,3 @@
+ /venv/
+ /.idea/
++/.gitignore/
+\ No newline at end of file
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/venv/\r\n/.idea/
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	
++++ b/.gitignore	
+@@ -1,2 +1,4 @@
+ /venv/
+-/.idea/
+\ No newline at end of file
++/.idea/
++/.pytest_cache/
++/.gitignore/
+\ No newline at end of file

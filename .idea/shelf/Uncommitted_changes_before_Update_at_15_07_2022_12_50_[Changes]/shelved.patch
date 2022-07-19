@@ -1,0 +1,120 @@
+Index: .pytest_cache/v/cache/lastfailed
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.pytest_cache/v/cache/lastfailed b/.pytest_cache/v/cache/lastfailed
+new file mode 100644
+--- /dev/null	(date 1657684494212)
++++ b/.pytest_cache/v/cache/lastfailed	(date 1657684494212)
+@@ -0,0 +1,1 @@
++{}
+\ No newline at end of file
+Index: .pytest_cache/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.pytest_cache/.gitignore b/.pytest_cache/.gitignore
+new file mode 100644
+--- /dev/null	(date 1657864029577)
++++ b/.pytest_cache/.gitignore	(date 1657864029577)
+@@ -0,0 +1,2 @@
++/venv/
++/.idea/
+Index: .pytest_cache/CACHEDIR.TAG
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.pytest_cache/CACHEDIR.TAG b/.pytest_cache/CACHEDIR.TAG
+new file mode 100644
+--- /dev/null	(date 1657672738153)
++++ b/.pytest_cache/CACHEDIR.TAG	(date 1657672738153)
+@@ -0,0 +1,4 @@
++Signature: 8a477f597d28d172789f06886806bc55
++# This file is a cache directory tag created by pytest.
++# For information about cache directory tags, see:
++#	https://bford.info/cachedir/spec.html
+Index: .pytest_cache/README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.pytest_cache/README.md b/.pytest_cache/README.md
+new file mode 100644
+--- /dev/null	(date 1657672738142)
++++ b/.pytest_cache/README.md	(date 1657672738142)
+@@ -0,0 +1,8 @@
++# pytest cache directory #
++
++This directory contains data from the pytest's cache plugin,
++which provides the `--lf` and `--ff` options, as well as the `cache` fixture.
++
++**Do not** commit this to version control.
++
++See [the docs](https://docs.pytest.org/en/stable/how-to/cache.html) for more information.
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(date 1657864129542)
++++ b/.gitignore	(date 1657864129542)
+@@ -0,0 +1,2 @@
++/venv/
++/.idea/
+\ No newline at end of file
+Index: .pytest_cache/v/cache/nodeids
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.pytest_cache/v/cache/nodeids b/.pytest_cache/v/cache/nodeids
+new file mode 100644
+--- /dev/null	(date 1657856639208)
++++ b/.pytest_cache/v/cache/nodeids	(date 1657856639208)
+@@ -0,0 +1,28 @@
++[
++  "tests.py::TestBooksCollector::test__init__books_favorites_type_list",
++  "tests.py::TestBooksCollector::test__init__books_rating_type_dict",
++  "tests.py::TestBooksCollector::test_add_book_in_favorites_for_a_non_existing_books_rating",
++  "tests.py::TestBooksCollector::test_add_book_in_favorites_true",
++  "tests.py::TestBooksCollector::test_add_new_book_add_two_books",
++  "tests.py::TestBooksCollector::test_add_new_book_base_rating1",
++  "tests.py::TestBooksCollector::test_add_new_book_true",
++  "tests.py::TestBooksCollector::test_add_new_book_twice_false",
++  "tests.py::TestBooksCollector::test_delete_book_from_favorites_true",
++  "tests.py::TestBooksCollector::test_get_book_rating_true",
++  "tests.py::TestBooksCollector::test_get_books_rating_dict",
++  "tests.py::TestBooksCollector::test_get_books_rating_type",
++  "tests.py::TestBooksCollector::test_get_books_with_specific_rating",
++  "tests.py::TestBooksCollector::test_get_books_with_specific_rating_true",
++  "tests.py::TestBooksCollector::test_get_list_of_favorites_books_true",
++  "tests.py::TestBooksCollector::test_set_book_rating_1",
++  "tests.py::TestBooksCollector::test_set_book_rating_9",
++  "tests.py::TestBooksCollector::test_set_book_rating_false",
++  "tests.py::TestBooksCollector::test_set_book_rating_for_a_non_existing_book",
++  "tests.py::TestBooksCollector::test_set_book_rating_lower1",
++  "tests.py::TestBooksCollector::test_set_book_rating_lower_1",
++  "tests.py::TestBooksCollector::test_set_book_rating_max10",
++  "tests.py::TestBooksCollector::test_set_book_rating_max_10",
++  "tests.py::TestBooksCollector::test_set_book_rating_more_than_max",
++  "tests.py::TestBooksCollector::test_set_book_rating_true",
++  "tests.py::TestBooksCollector::test_set_book_rating_upper_max"
++]
+\ No newline at end of file
+Index: .pytest_cache/v/cache/stepwise
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.pytest_cache/v/cache/stepwise b/.pytest_cache/v/cache/stepwise
+new file mode 100644
+--- /dev/null	(date 1657856639208)
++++ b/.pytest_cache/v/cache/stepwise	(date 1657856639208)
+@@ -0,0 +1,1 @@
++[]
+\ No newline at end of file
